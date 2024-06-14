@@ -1,0 +1,84 @@
+/* Style the navigation menu */
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    /* display: inline-flex;
+    justify-content:space-between; */
+    left: 1000px;
+
+  }
+  button{
+    background-color:orangered;
+    cursor: pointer;
+  }
+  
+  /* Style the navigation links */
+  .navigation a {
+    text-decoration-style: none;
+    color: inherit;
+    padding: 10px 20px;
+  }
+  
+  /* Style the navigation links on hover */
+  .navigation a:hover {
+    background-color: #ac5050;
+    color: #333;
+  }
+  
+  /* Add some style to the main content area 
+  (This is optional, for demonstration purposes) */
+  main {
+    padding: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#fff;
+    text-align: justify;
+    margin-right: 50rem;
+    margin-bottom: 15rem;
+  }
+  
+  body{
+    background-image: url('https://blog.hubspot.com/hs-fs/hubfs/3fdca92b583372667c5943ee6bae0787.gif?width=3000&name=3fdca92b583372667c5943ee6bae0787.gif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: #8b8181;
+    background-color: #c42c2c;
+
+  }
+  .pill{
+    background-color: #be1f0d;
+  border-radius: 5em;
+  padding: 0.5em 0.7em;
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.77;
+  font-weight: 500;
+  }
+  .home__offer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.35em;
+  }
+  .home__offer_title{
+    color: #be1f0d;
+    letter-spacing: 2px;
+    font-size: 0.77;
+    font-weight: 600;
+  }
+  img{
+    max-width: 100;
+    height: auto;
+    display: block;
+  }
